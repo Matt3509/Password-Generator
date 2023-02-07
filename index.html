@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;700;900&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="intro-container">
+            <h1 class="main-heading">Generate a <span class="green-text">random password</span></h1>
+            <p>Never use an insecure password again</p>
+        </div> <!-- Closing "Intro-container" -->
+        
+        <div class="password-creation">
+            <input class="btn" id="input-el" type="number" placeholder="Length"  min="6" max="15">
+            <button class="btn" id="generate-btn">Generate Passwords</button>
+        </div>
+
+        <div class="main-container">
+            <div>
+                <button class="pbtn" id="password-1"></button>
+                <button class="pbtn" id="password-2"></button>
+            </div>
+            <div>
+                <button class="pbtn" id="password-3"></button>
+                <button class="pbtn" id="password-4"></button>
+            </div>
+    
+        </div> <!-- Closing "Main-container" -->
+    </div> <!-- Closing "container"  -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+.container {
+    width: 100%;
+}
+
+.intro-container {
+    width: 65%;
+    
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 65%;
+
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+.main-heading {
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.green-text {
+    color: #4ADF86;
+    display: block;
+}
+
+p {
+    margin-top: .5em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Buttons / Inputs */
+
+.password-creation {
+    margin-left: 5em;
+    margin-top: 1em;
+    padding-bottom: 3em;
+    max-width: 400px;
+
+    border-bottom: solid 2px #fff;
+}
+
+.btn {
+    padding: 10px 20px;
+    
+    border-radius: 6px;
+    background-color: #10B981;
+    color: #fff;
+    
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    margin-right: .1em;
+}
+
+#generate-btn {
+    cursor: pointer;
+}
+
+#generate-btn:hover,
+#generate-btn:focus {
+    background-color: #fff;
+    color: #10B981;
+}
+
+.pbtn {
+    width: 175px;
+
+    padding: 12px 18px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+
+    background-color: #273549;
+    color: #55F991;
+    font-weight: 700;
+    
+    border-radius: 5px;
+    border: none;
+
+    cursor: pointer;
+}
